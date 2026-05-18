@@ -29,7 +29,7 @@ This is a fork of [Chrome Debloat](https://github.com/yashgorana/chrome-debloat)
 ## Quick Start
 
 ### Windows
-1.  Download the [`edge.reg`](./edge.reg) file from this repository.
+1.  Download the [`edge-add.reg`](./edge-add.reg) file from this repository.
 2.  Open the downloaded `.reg` file to add the settings to the Windows Registry.
 3.  Restart your browser or go to `edge://policy` and click "Reload policies".
 

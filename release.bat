@@ -9,7 +9,7 @@ set "_windows=%_source%\windows\edge.reg"
 
 move /y "%_linux%" "%_target%"
 move /y "%_macos%" "%_target%"
-move /y "%_windows%" "%_target%"
+move /y "%_windows%" "%_target%\edge-add.reg"
 
 rmdir /s /q "%_source%"
 

@@ -20,11 +20,11 @@ This is a fork of [Chrome Debloat](https://github.com/yashgorana/chrome-debloat)
 
 ### Supported Systems
 
-| Windows | macOS | Linux |
-|---------|-------|-------|
-| ✅ | ✅ | ✅ |
-| ✅ | ✅ | ✅ |
-| ✅ | ✅ | ✅ |
+| System | Support |
+| --- | --- |
+| Windows | ✅ |
+| macOS | ✅ |
+| Linux | ✅ |
 
 ## Quick Start
 

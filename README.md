@@ -1,6 +1,6 @@
 # Better Edge Browser
 
-Opinionated policy changes to Microsoft Edge Browser that debloats unnecessary 'features' and adds essential add-ons.
+Opinionated policy changes to Microsoft Edge Browser that debloat unnecessary 'features' and add essential add-ons.
 
 This is a fork of [Chrome Debloat](https://github.com/yashgorana/chrome-debloat) integrated with some policies from [Just the Browser](https://github.com/corbindavenport/just-the-browser).
 

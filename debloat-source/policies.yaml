@@ -134,8 +134,8 @@ edge: &edge
   ExtensionInstallForcelist:
   - odfafepnkmbhccpbejgmiehpchacaeak # uBlock Origin
   - caoacbimdbbljakfhgikoodekdnlcgpk # DuckDuckGo Search & Tracker Protection
-  # - lklaendlmlfkaabeleddanafeinnenih # Tabliss (New tab)
-  - dehmmlejmefjphdeoagelkpaoolicmid # Bonjourr (New tab)
+  - lklaendlmlfkaabeleddanafeinnenih # Tabliss (New tab)
+  # - dehmmlejmefjphdeoagelkpaoolicmid # Bonjourr (New tab)
   # - eeagobfjdenkkddmbclomhiblgggliao # Violentmonkey (added-below)
   # - iakiapeignihajefjfdhlpaolbacjono # YouTube Video Speeds++ (added-below)
   

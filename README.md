@@ -35,24 +35,24 @@ On Windows, you can use PowerShell to quickly apply `.reg` policies.
 
 ### Install with [Tabliss](https://microsoftedge.microsoft.com/addons/detail/lklaendlmlfkaabeleddanafeinnenih) (default)
 1. Copy the following code and run it in PowerShell:
-```bash
-& ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1)))
-```
+    ```bash
+    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1)))
+    ```
 2. Restart your browser or go to `edge://policy` and click "Reload policies".
 
 ### Install with [Bonjourr](https://microsoftedge.microsoft.com/addons/detail/dehmmlejmefjphdeoagelkpaoolicmid)
 1. Copy the following code and run it in PowerShell:
-```bash
-& ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "dehmmlejmefjphdeoagelkpaoolicmid"
-```
+    ```bash
+    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "dehmmlejmefjphdeoagelkpaoolicmid"
+    ```
 2. Restart your browser or go to `edge://policy` and click "Reload policies".
 3. *(Optional)* You can use any valid CRX ID (32-character add-on ID from Edge Add-on Store) in the code above to replace Tabliss with that add-on.
 
 ### Uninstall Edge Policies
 1. Copy the following code and run it in PowerShell:
-```bash
-& ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "remove"
-```
+    ```bash
+    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "remove"
+    ```
 2. Restart your browser or go to `edge://policy` and click "Reload policies".
 
 ## Installing Policies
@@ -82,17 +82,9 @@ If you're not on Windows or don't/can't use the one-liner above for some reason,
 If you want to customize the policies:
 
 1. Clone this repository.
-2. Open Terminal (CMD) inside the `debloat-source` folder. Or simply do `cd debloat-source`.
-3. Install dependencies:
-   ```bash
-   uv sync
-   ```
-4. Modify `policies.yaml` according to your needs.
-5. Generate new configuration files:
-   ```bash
-   uv run main.py
-   ```
-6. Execute `release.bat` to move the generated files to the root folder.
+2. Modify `policies.yaml` (inside `debloat-source` folder) according to your needs.
+3. Open a CMD terminal in the root folder.
+4. Run `release.bat` generate the policy files.
 
 ### Uninstalling Policies
 

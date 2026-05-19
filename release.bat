@@ -1,6 +1,11 @@
 @echo off
 setlocal enabledelayedexpansion
 
+cd debloat-source
+uv sync
+uv run main.py
+cd..
+
 set "_source=%~dp0debloat-source\generated"
 set "_target=%~dp0"
 

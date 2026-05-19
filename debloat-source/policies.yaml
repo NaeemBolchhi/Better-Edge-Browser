@@ -35,7 +35,7 @@ edge: &edge
   DefaultNotificationsSetting: 2
   # DefaultSensorsSetting: 2
   # DefaultSerialGuardSetting: 2
-  DeveloperToolsAllowed: 1
+  DeveloperToolsAvailability: 1
   DiagnosticData: 0
   Edge3PSerpTelemetryEnabled: false
   EdgeAssetDeliveryServiceEnabled: false

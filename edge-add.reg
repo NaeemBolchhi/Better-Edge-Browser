@@ -27,7 +27,7 @@ Windows Registry Editor Version 5.00
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
 "DefaultGeolocationSetting"=dword:00000002
 "DefaultNotificationsSetting"=dword:00000002
-"DeveloperToolsAllowed"=dword:00000001
+"DeveloperToolsAvailability"=dword:00000001
 "DiagnosticData"=dword:00000000
 "Edge3PSerpTelemetryEnabled"=dword:00000000
 "EdgeAssetDeliveryServiceEnabled"=dword:00000000

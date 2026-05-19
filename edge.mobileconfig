@@ -83,7 +83,7 @@
 			<integer>2</integer>
 			<key>DefaultNotificationsSetting</key>
 			<integer>2</integer>
-			<key>DeveloperToolsAllowed</key>
+			<key>DeveloperToolsAvailability</key>
 			<integer>1</integer>
 			<key>DiagnosticData</key>
 			<integer>0</integer>

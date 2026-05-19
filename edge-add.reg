@@ -109,6 +109,8 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionSettings]
 "eeagobfjdenkkddmbclomhiblgggliao"="{\"installation_mode\": \"normal_installed\", \"update_url\": \"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"}"
 "iakiapeignihajefjfdhlpaolbacjono"="{\"installation_mode\": \"normal_installed\", \"update_url\": \"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"}"
+"mbmgnelfcpoecdepckhlhegpcehmpmji"="{\"installation_mode\": \"normal_installed\", \"update_url\": \"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"}"
+"cmnlinjalaieggoebkmamaphjghpafhn"="{\"installation_mode\": \"normal_installed\", \"update_url\": \"https://edge.microsoft.com/extensionwebstorebase/v1/crx\"}"
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Edge\ExtensionInstallForcelist]
 "1"="odfafepnkmbhccpbejgmiehpchacaeak"

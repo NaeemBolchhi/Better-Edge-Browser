@@ -12,11 +12,14 @@ This is a fork of [Chrome Debloat](https://github.com/yashgorana/chrome-debloat)
 - Maintains browser functionality while reducing resource usage by disabling Startup Boost and background modes.
 - Enforces privacy by defaulting the New Tab page to about:blank and blocking location/notification prompts.
 - Pre-configures essential add-ons:
-    - uBlock Origin
-    - DuckDuckGo Search & Tracker Protection
-    - Tabliss
+    - uBlock Origin (Forced)
+    - DuckDuckGo Search & Tracker Protection (Forced)
+    - Tabliss (Forced)
     - Violentmonkey
     - YouTube Video Speeds++
+    - SponsorBlock for YouTube
+    - Picture-in-Picture Everywhere
+- \* Forced add-ons cannot be disabled or removed by the user.
 
 ### Supported Systems
 
@@ -26,7 +29,35 @@ This is a fork of [Chrome Debloat](https://github.com/yashgorana/chrome-debloat)
 | macOS | ✅ |
 | Linux | ✅ |
 
-## Quick Start
+## Quick Start for Windows
+
+On Windows, you can use PowerShell to quickly apply `.reg` policies.
+
+### Install with [Tabliss](https://microsoftedge.microsoft.com/addons/detail/lklaendlmlfkaabeleddanafeinnenih) (default)
+1. Copy the following code and run it in PowerShell:
+```bash
+& ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1)))
+```
+2. Restart your browser or go to `edge://policy` and click "Reload policies".
+
+### Install with [Bonjourr](https://microsoftedge.microsoft.com/addons/detail/dehmmlejmefjphdeoagelkpaoolicmid)
+1. Copy the following code and run it in PowerShell:
+```bash
+& ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "dehmmlejmefjphdeoagelkpaoolicmid"
+```
+2. Restart your browser or go to `edge://policy` and click "Reload policies".
+3. *(Optional)* You can use any valid CRX ID (32-character add-on ID from Edge Add-on Store) in the code above to replace Tabliss with that add-on.
+
+### Uninstall Edge Policies
+1. Copy the following code and run it in PowerShell:
+```bash
+& ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "remove"
+```
+2. Restart your browser or go to `edge://policy` and click "Reload policies".
+
+## Installing Policies
+
+If you're not on Windows or don't/can't use the one-liner above for some reason, you may follow the approaches below to apply the policies manually.
 
 ### Windows
 1.  Download the [`edge-add.reg`](./edge-add.reg) file from this repository.
@@ -61,8 +92,7 @@ If you want to customize the policies:
    ```bash
    uv run main.py
    ```
-6. Execute `release.bat` to move the generated files, or check the `generated` folder inside `debloat-source`.
-
+6. Execute `release.bat` to move the generated files to the root folder.
 
 ### Uninstalling Policies
 

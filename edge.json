@@ -116,6 +116,14 @@
     "iakiapeignihajefjfdhlpaolbacjono": {
       "installation_mode": "normal_installed",
       "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
+    },
+    "mbmgnelfcpoecdepckhlhegpcehmpmji": {
+      "installation_mode": "normal_installed",
+      "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
+    },
+    "cmnlinjalaieggoebkmamaphjghpafhn": {
+      "installation_mode": "normal_installed",
+      "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
     }
   }
 }

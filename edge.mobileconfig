@@ -261,6 +261,20 @@
 					<key>update_url</key>
 					<string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
 				</dict>
+				<key>mbmgnelfcpoecdepckhlhegpcehmpmji</key>
+				<dict>
+					<key>installation_mode</key>
+					<string>normal_installed</string>
+					<key>update_url</key>
+					<string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
+				</dict>
+				<key>cmnlinjalaieggoebkmamaphjghpafhn</key>
+				<dict>
+					<key>installation_mode</key>
+					<string>normal_installed</string>
+					<key>update_url</key>
+					<string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
+				</dict>
 			</dict>
 		</dict>
 	</array>

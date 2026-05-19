@@ -138,7 +138,9 @@ edge: &edge
   # - dehmmlejmefjphdeoagelkpaoolicmid # Bonjourr (New tab)
   # - eeagobfjdenkkddmbclomhiblgggliao # Violentmonkey (added-below)
   # - iakiapeignihajefjfdhlpaolbacjono # YouTube Video Speeds++ (added-below)
+  # - mbmgnelfcpoecdepckhlhegpcehmpmji # SponsorBlock for YouTube (added-below)
+  # - cmnlinjalaieggoebkmamaphjghpafhn # Picture-in-Picture Everywhere (added-below)
   
   # normal_installed extensions can be removed by the user
   # https://github.com/microsoft/edge-extension-settings-generator
-  ExtensionSettings: { "eeagobfjdenkkddmbclomhiblgggliao":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"}, "iakiapeignihajefjfdhlpaolbacjono":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"} }
+  ExtensionSettings: { "eeagobfjdenkkddmbclomhiblgggliao":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"}, "iakiapeignihajefjfdhlpaolbacjono":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"}, "mbmgnelfcpoecdepckhlhegpcehmpmji":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"}, "cmnlinjalaieggoebkmamaphjghpafhn":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"} }

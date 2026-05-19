@@ -55,8 +55,6 @@
 			<false/>
 			<key>AutoImportAtFirstRun</key>
 			<integer>4</integer>
-			<key>AutomaticHttpsDefault</key>
-			<integer>1</integer>
 			<key>BackgroundModeEnabled</key>
 			<false/>
 			<key>BingAdsSuppression</key>
@@ -117,8 +115,6 @@
 			<false/>
 			<key>ForceSync</key>
 			<false/>
-			<key>GamerModeEnabled</key>
-			<false/>
 			<key>GenAILocalFoundationalModelSettings</key>
 			<integer>1</integer>
 			<key>HideFirstRunExperience</key>
@@ -134,8 +130,6 @@
 			<key>InternetExplorerIntegrationLevel</key>
 			<integer>0</integer>
 			<key>LiveCaptionsAllowed</key>
-			<false/>
-			<key>LiveTranslationAllowed</key>
 			<false/>
 			<key>LocalProvidersEnabled</key>
 			<false/>
@@ -199,17 +193,11 @@
 			<false/>
 			<key>ResolveNavigationErrorsUseWebService</key>
 			<false/>
-			<key>SafeBrowsingDeepScanningEnabled</key>
-			<false/>
-			<key>SafeBrowsingSurveysEnabled</key>
-			<false/>
 			<key>ScarewareBlockerProtectionEnabled</key>
 			<false/>
 			<key>SeamlessWebToBrowserSignInEnabled</key>
 			<false/>
 			<key>SharedLinksEnabled</key>
-			<false/>
-			<key>ShoppingListEnabled</key>
 			<false/>
 			<key>ShowAcrobatSubscriptionButton</key>
 			<false/>
@@ -256,9 +244,24 @@
 				<string>odfafepnkmbhccpbejgmiehpchacaeak</string>
 				<string>caoacbimdbbljakfhgikoodekdnlcgpk</string>
 				<string>lklaendlmlfkaabeleddanafeinnenih</string>
-				<string>eeagobfjdenkkddmbclomhiblgggliao</string>
-				<string>iakiapeignihajefjfdhlpaolbacjono</string>
 			</array>
+			<key>ExtensionSettings</key>
+			<dict>
+				<key>eeagobfjdenkkddmbclomhiblgggliao</key>
+				<dict>
+					<key>installation_mode</key>
+					<string>normal_installed</string>
+					<key>update_url</key>
+					<string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
+				</dict>
+				<key>iakiapeignihajefjfdhlpaolbacjono</key>
+				<dict>
+					<key>installation_mode</key>
+					<string>normal_installed</string>
+					<key>update_url</key>
+					<string>https://edge.microsoft.com/extensionwebstorebase/v1/crx</string>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 </dict>

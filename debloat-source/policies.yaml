@@ -16,7 +16,7 @@ edge: &edge
   ApplicationGuardUploadBlockingEnabled: false
   AutofillCreditCardEnabled: false
   AutoImportAtFirstRun: 4
-  AutomaticHttpsDefault: 1
+  ## AutomaticHttpsDefault: 1
   BackgroundModeEnabled: false
   BingAdsSuppression: true
   BlockExternalExtensions: false
@@ -51,7 +51,7 @@ edge: &edge
   ExtensionManifestV2Availability: 2
   ExtensionsPerformanceDetectorEnabled: false
   ForceSync: false
-  GamerModeEnabled: false
+  ## GamerModeEnabled: false
   GenAILocalFoundationalModelSettings: 1
   HideFirstRunExperience: true
   HttpsUpgradesEnabled: true
@@ -60,7 +60,7 @@ edge: &edge
   InAppSupportEnabled: false
   InternetExplorerIntegrationLevel: 0
   LiveCaptionsAllowed: false
-  LiveTranslationAllowed: false
+  ## LiveTranslationAllowed: false
   # LocalNetworkAccessAllowedForUrls: [""]
   LocalProvidersEnabled: false
   MAMEnabled: false
@@ -96,13 +96,13 @@ edge: &edge
   # ReadAloudEnabled: false
   RelatedWebsiteSetsEnabled: false
   ResolveNavigationErrorsUseWebService: false
-  SafeBrowsingDeepScanningEnabled: false
-  SafeBrowsingSurveysEnabled: false
+  ## SafeBrowsingDeepScanningEnabled: false
+  ## SafeBrowsingSurveysEnabled: false
   ScarewareBlockerProtectionEnabled: false
   SeamlessWebToBrowserSignInEnabled: false
   # SearchSuggestEnabled: false
   SharedLinksEnabled: false
-  ShoppingListEnabled: false
+  ## ShoppingListEnabled: false
   ShowAcrobatSubscriptionButton: false
   ShowMicrosoftRewards: false
   ShowOfficeShortcutInFavoritesBar: false
@@ -129,9 +129,16 @@ edge: &edge
   WalletDonationEnabled: false
   WebToBrowserSignInEnabled: false
   WebWidgetAllowed: false
+  
+  # Forcelist extensions cannot be removed by the user
   ExtensionInstallForcelist:
   - odfafepnkmbhccpbejgmiehpchacaeak # uBlock Origin
   - caoacbimdbbljakfhgikoodekdnlcgpk # DuckDuckGo Search & Tracker Protection
-  - lklaendlmlfkaabeleddanafeinnenih # Tabliss
-  - eeagobfjdenkkddmbclomhiblgggliao # Violentmonkey
-  - iakiapeignihajefjfdhlpaolbacjono # YouTube Video Speeds++
+  - lklaendlmlfkaabeleddanafeinnenih # Tabliss (New tab)
+  # - dehmmlejmefjphdeoagelkpaoolicmid # Bonjourr (New tab)
+  # - eeagobfjdenkkddmbclomhiblgggliao # Violentmonkey (added-below)
+  # - iakiapeignihajefjfdhlpaolbacjono # YouTube Video Speeds++ (added-below)
+  
+  # normal_installed extensions can be removed by the user
+  # https://github.com/microsoft/edge-extension-settings-generator
+  ExtensionSettings: { "eeagobfjdenkkddmbclomhiblgggliao":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"}, "iakiapeignihajefjfdhlpaolbacjono":{"installation_mode":"normal_installed","update_url":"https://edge.microsoft.com/extensionwebstorebase/v1/crx"} }

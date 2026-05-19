@@ -10,7 +10,6 @@ $TargetDir       = "$env:TEMP\TmFlZW1Cb2xjaGhp"
 $Path_ElevateCMD = "$TargetDir\edge-elevate.cmd"
 $Path_AddREG     = "$TargetDir\edge-add.reg"
 $Path_RemoveREG  = "$TargetDir\edge-remove.reg"
-$Path_ReplaceREG = "$TargetDir\edge-replace.reg"
 
 if (Test-Path "$env:TEMP\TmFlZW1Cb2xjaGhp\") {
     Remove-Item -Path "$env:TEMP\TmFlZW1Cb2xjaGhp" -Recurse -Force
@@ -48,21 +47,9 @@ if ((Test-Path $FilePaths) -notcontains $false) {
     
     } elseif ($args[0] -match '^[a-p]{32}$') {
         # Custom new tab addon to replace Tabliss
-        $ReplaceString = @(
-            "set `"_source=$Path_AddREG`"",
-            "set `"_replaced=$Path_ReplaceREG`"",
-            '',
-            '> "%_replaced%" (',
-            '    for /f "delims=" %%A in (%_source%) do (',
-            '        set "line=%%A"',
-            "        set `"line=!line:lklaendlmlfkaabeleddanafeinnenih=$args[0]!`"",
-            '        echo(!line!',
-            '    )',
-            ')',
-            '',
-            "reg import `"$Path_ReplaceREG`""
-        )
-        Add-Content -Path $Path_ElevateCMD -Value $ReplaceString
+		# lklaendlmlfkaabeleddanafeinnenih is Tabliss
+		(Get-Content $Path_AddREG) -replace 'lklaendlmlfkaabeleddanafeinnenih', $args[0] | Set-Content $Path_AddREG
+        Add-Content -Path $Path_ElevateCMD -Value "reg import `"$Path_AddREG`""
         Start-Process $Path_ElevateCMD -Wait
     }
     

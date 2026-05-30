@@ -84,7 +84,7 @@ If you want to customize the policies:
 1. Clone this repository.
 2. Modify `policies.yaml` (inside `debloat-source` folder) according to your needs.
 3. Open a CMD terminal in the root folder.
-4. Run `release.bat` generate the policy files.
+4. Run `release.bat` to generate the policy files.
 
 ### Uninstalling Policies
 

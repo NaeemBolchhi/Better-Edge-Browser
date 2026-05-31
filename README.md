@@ -36,14 +36,14 @@ On Windows, you can use PowerShell to quickly apply `.reg` policies.
 ### Install with [Tabliss](https://microsoftedge.microsoft.com/addons/detail/lklaendlmlfkaabeleddanafeinnenih) (default)
 1. Copy the following code and run it in PowerShell:
     ```bash
-    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1)))
+    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/better-edge-browser/win-auto/edge.ps1)))
     ```
 2. Restart your browser or go to `edge://policy` and click "Reload policies".
 
 ### Install with [Bonjourr](https://microsoftedge.microsoft.com/addons/detail/dehmmlejmefjphdeoagelkpaoolicmid)
 1. Copy the following code and run it in PowerShell:
     ```bash
-    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "dehmmlejmefjphdeoagelkpaoolicmid"
+    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/better-edge-browser/win-auto/edge.ps1))) "dehmmlejmefjphdeoagelkpaoolicmid"
     ```
 2. Restart your browser or go to `edge://policy` and click "Reload policies".
 3. *(Optional)* You can use any valid CRX ID (32-character add-on ID from Edge Add-on Store) in the code above to replace Tabliss with that add-on.
@@ -51,7 +51,7 @@ On Windows, you can use PowerShell to quickly apply `.reg` policies.
 ### Uninstall Edge Policies
 1. Copy the following code and run it in PowerShell:
     ```bash
-    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/edge.ps1))) "remove"
+    & ([scriptblock]::Create((irm https://naeembolchhi.github.io/better-edge-browser/win-auto/edge.ps1))) "remove"
     ```
 2. Restart your browser or go to `edge://policy` and click "Reload policies".
 

@@ -37,6 +37,8 @@
 			<false/>
 			<key>AIGenThemesEnabled</key>
 			<false/>
+			<key>AllowBrowsingWithCopilot</key>
+			<false/>
 			<key>AllowGamesMenu</key>
 			<false/>
 			<key>AlternateErrorPagesEnabled</key>
@@ -67,12 +69,16 @@
 			<integer>0</integer>
 			<key>BuiltInAIAPIsEnabled</key>
 			<false/>
+			<key>BuiltInDnsClientEnabled</key>
+			<false/>
 			<key>ComposeInlineEnabled</key>
 			<false/>
 			<key>ConfigureDoNotTrack</key>
 			<true/>
 			<key>ControlDefaultStateOfAllowExtensionFromOtherStoresSettingEnabled</key>
 			<true/>
+			<key>CopilotAddressBarSuggestionsEnabled</key>
+			<false/>
 			<key>CopilotPageContext</key>
 			<false/>
 			<key>DefaultBrowserSettingEnabled</key>
@@ -126,6 +132,8 @@
 			<key>HubsSidebarEnabled</key>
 			<false/>
 			<key>ImplicitSignInEnabled</key>
+			<false/>
+			<key>ImportOnEachLaunch</key>
 			<false/>
 			<key>InAppSupportEnabled</key>
 			<false/>
@@ -198,6 +206,8 @@
 			<key>ScarewareBlockerProtectionEnabled</key>
 			<false/>
 			<key>SeamlessWebToBrowserSignInEnabled</key>
+			<false/>
+			<key>SearchbarAllowed</key>
 			<false/>
 			<key>SharedLinksEnabled</key>
 			<false/>

@@ -4,6 +4,7 @@ Windows Registry Editor Version 5.00
 "AADWebSiteSSOUsingThisProfileEnabled"=dword:00000000
 "AccessibilityImageLabelsEnabled"=dword:00000000
 "AIGenThemesEnabled"=dword:00000000
+"AllowBrowsingWithCopilot"=dword:00000000
 "AllowGamesMenu"=dword:00000000
 "AlternateErrorPagesEnabled"=dword:00000000
 "AmbientAuthenticationInPrivateModesEnabled"=dword:00000000
@@ -19,9 +20,11 @@ Windows Registry Editor Version 5.00
 "BrowserGuestModeEnabled"=dword:00000000
 "BrowserSignin"=dword:00000000
 "BuiltInAIAPIsEnabled"=dword:00000000
+"BuiltInDnsClientEnabled"=dword:00000000
 "ComposeInlineEnabled"=dword:00000000
 "ConfigureDoNotTrack"=dword:00000001
 "ControlDefaultStateOfAllowExtensionFromOtherStoresSettingEnabled"=dword:00000001
+"CopilotAddressBarSuggestionsEnabled"=dword:00000000
 "CopilotPageContext"=dword:00000000
 "DefaultBrowserSettingEnabled"=dword:00000000
 "DefaultBrowserSettingsCampaignEnabled"=dword:00000000
@@ -49,6 +52,7 @@ Windows Registry Editor Version 5.00
 "HttpsUpgradesEnabled"=dword:00000001
 "HubsSidebarEnabled"=dword:00000000
 "ImplicitSignInEnabled"=dword:00000000
+"ImportOnEachLaunch"=dword:00000000
 "InAppSupportEnabled"=dword:00000000
 "InternetExplorerIntegrationLevel"=dword:00000000
 "LiveCaptionsAllowed"=dword:00000000
@@ -85,6 +89,7 @@ Windows Registry Editor Version 5.00
 "ResolveNavigationErrorsUseWebService"=dword:00000000
 "ScarewareBlockerProtectionEnabled"=dword:00000000
 "SeamlessWebToBrowserSignInEnabled"=dword:00000000
+"SearchbarAllowed"=dword:00000000
 "SharedLinksEnabled"=dword:00000000
 "ShowAcrobatSubscriptionButton"=dword:00000000
 "ShowMicrosoftRewards"=dword:00000000

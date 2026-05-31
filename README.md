@@ -10,16 +10,16 @@ This is a fork of [Chrome Debloat](https://github.com/yashgorana/chrome-debloat)
 - Removes unnecessary AI features, Copilot integration, and pre-installed bloatware.
 - Blocks promotional content, Bing ads, and unnecessary UI elements like the Hubs sidebar.
 - Maintains browser functionality while reducing resource usage by disabling Startup Boost and background modes.
-- Enforces privacy by defaulting the New Tab page to about:blank and blocking location/notification prompts.
+- Replaces the New Tab page with a cleaner experience through Tabliss (or Bonjourr).
 - Pre-configures essential add-ons:
-    - uBlock Origin (Forced)
-    - DuckDuckGo Search & Tracker Protection (Forced)
-    - Tabliss (Forced)
-    - Violentmonkey
-    - YouTube Video Speeds++
-    - SponsorBlock for YouTube
-    - Picture-in-Picture Everywhere
-- \* Forced add-ons cannot be disabled or removed by the user.
+    - [uBlock Origin](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak) (Forced)
+    - [DuckDuckGo Search & Tracker Protection](https://microsoftedge.microsoft.com/addons/detail/caoacbimdbbljakfhgikoodekdnlcgpk) (Forced)
+    - [Tabliss](https://microsoftedge.microsoft.com/addons/detail/lklaendlmlfkaabeleddanafeinnenih) (Forced)
+    - [Violentmonkey](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
+    - [YouTube Video Speeds++](https://microsoftedge.microsoft.com/addons/detail/iakiapeignihajefjfdhlpaolbacjono)
+    - [SponsorBlock for YouTube](https://microsoftedge.microsoft.com/addons/detail/mbmgnelfcpoecdepckhlhegpcehmpmji)
+    - [Picture-in-Picture Everywhere](https://microsoftedge.microsoft.com/addons/detail/cmnlinjalaieggoebkmamaphjghpafhn)
+- \* Forced add-ons cannot be disabled or removed by the user. Non-enforced add-ons can be disabled but not removed.
 
 ### Supported Systems
 

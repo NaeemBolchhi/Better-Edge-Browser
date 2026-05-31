@@ -7,6 +7,7 @@ edge: &edge
   AADWebSiteSSOUsingThisProfileEnabled: false
   AccessibilityImageLabelsEnabled: false
   AIGenThemesEnabled: false
+  AllowBrowsingWithCopilot: false
   AllowGamesMenu: false
   AlternateErrorPagesEnabled: false
   AmbientAuthenticationInPrivateModesEnabled: 0
@@ -23,10 +24,11 @@ edge: &edge
   BrowserGuestModeEnabled: false
   BrowserSignin: 0
   BuiltInAIAPIsEnabled: false
-  # BuiltInDnsClientEnabled: false
+  BuiltInDnsClientEnabled: false
   ComposeInlineEnabled: false
   ConfigureDoNotTrack: true
   ControlDefaultStateOfAllowExtensionFromOtherStoresSettingEnabled: true
+  CopilotAddressBarSuggestionsEnabled: false
   CopilotPageContext: false
   DefaultBrowserSettingEnabled: false
   DefaultBrowserSettingsCampaignEnabled: false
@@ -58,6 +60,7 @@ edge: &edge
   HttpsUpgradesEnabled: true
   HubsSidebarEnabled: false
   ImplicitSignInEnabled: false
+  ImportOnEachLaunch: false
   InAppSupportEnabled: false
   InternetExplorerIntegrationLevel: 0
   LiveCaptionsAllowed: false
@@ -101,6 +104,7 @@ edge: &edge
   ## SafeBrowsingSurveysEnabled: false
   ScarewareBlockerProtectionEnabled: false
   SeamlessWebToBrowserSignInEnabled: false
+  SearchbarAllowed: false
   # SearchSuggestEnabled: false
   SharedLinksEnabled: false
   ## ShoppingListEnabled: false

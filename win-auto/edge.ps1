@@ -6,9 +6,9 @@ Write-Host "Better Edge Browser" -ForegroundColor Yellow
 Write-Host ""
 
 $DateVar    = Get-Date -Format 'yyyyMMddHHmmss'
-$ElevateCMD = 'https://naeembolchhi.github.io/Better-Edge-Browser/win-auto/elevate.cmd?v=' + $DateVar
-$AddREG     = 'https://naeembolchhi.github.io/Better-Edge-Browser/edge-add.reg?v=' + $DateVar
-$RemoveREG  = 'https://naeembolchhi.github.io/Better-Edge-Browser/edge-remove.reg?v=' + $DateVar
+$ElevateCMD = 'https://naeembolchhi.github.io/better-edge-browser/win-auto/elevate.cmd?v=' + $DateVar
+$AddREG     = 'https://naeembolchhi.github.io/better-edge-browser/edge-add.reg?v=' + $DateVar
+$RemoveREG  = 'https://naeembolchhi.github.io/better-edge-browser/edge-remove.reg?v=' + $DateVar
 
 $TargetDir       = "$env:TEMP\TmFlZW1Cb2xjaGhp"
 $Path_ElevateCMD = "$TargetDir\edge-elevate.cmd"
